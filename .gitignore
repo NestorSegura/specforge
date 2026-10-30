@@ -1,0 +1,34 @@
+# macOS (AppleDouble files on exFAT/FAT volumes)
+._*
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Local env
+.env
+.env.*
+!.env.example
+
+# Java (Maven / Gradle)
+target/
+build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+
+# Node / TypeScript
+node_modules/
+coverage/
